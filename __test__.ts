@@ -1,4 +1,4 @@
-import { StackUpController } from ".";
+import { StackUpController } from "./src";
 
 (() => {
     StackUpController.getEvent().then(console.log);
