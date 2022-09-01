@@ -7,7 +7,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "start": "tsc && node lib/__test__.js",
+    "start": "tsc && node __test__.js",
     "build": "tsc",
     "auto-pub": "npm version patch && npm publish"
   },
