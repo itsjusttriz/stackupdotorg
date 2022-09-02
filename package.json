@@ -1,6 +1,6 @@
 {
   "name": "@itsjusttriz/stackup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Access the StackUpDotOrg API",
   "main": "lib/index.js",
   "files": [
