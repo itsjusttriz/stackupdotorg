@@ -1,34 +1,33 @@
 {
-  "name": "@itsjusttriz/stackup",
-  "version": "1.0.2",
-  "description": "Access the StackUpDotOrg API",
-  "main": "lib/index.js",
-  "files": [
-    "lib/**/*"
-  ],
-  "scripts": {
-    "start": "tsc && node __test__.js",
-    "build": "tsc",
-    "auto-pub": "npm version patch && npm publish"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/itsjusttriz/stackupdotorg.git"
-  },
-  "keywords": [
-    "StackUpDotOrg"
-  ],
-  "author": "itsjusttriz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itsjusttriz/stackupdotorg/issues"
-  },
-  "homepage": "https://github.com/itsjusttriz/stackupdotorg#readme",
-  "dependencies": {
-    "node-fetch": "^2.6.1"
-  },
-  "devDependencies": {
-    "@types/node-fetch": "^2.6.2",
-    "typescript": "^4.8.2"
-  }
+    "name": "@itsjusttriz/stackup",
+    "version": "1.0.3",
+    "description": "Access the StackUpDotOrg API",
+    "main": "lib/index.js",
+    "files": [
+        "lib/**/*"
+    ],
+    "scripts": {
+        "start": "tsc && node __test__.js",
+        "build": "tsc"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/itsjusttriz/stackupdotorg.git"
+    },
+    "keywords": [
+        "StackUpDotOrg"
+    ],
+    "author": "itsjusttriz",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/itsjusttriz/stackupdotorg/issues"
+    },
+    "homepage": "https://github.com/itsjusttriz/stackupdotorg#readme",
+    "dependencies": {
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.6.2",
+        "typescript": "^4.8.2"
+    }
 }
