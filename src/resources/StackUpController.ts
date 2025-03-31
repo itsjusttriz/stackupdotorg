@@ -14,7 +14,7 @@ export class StackUpController {
         const json = await callApi(`${BASE_URL}/events/${id}`);
         if (!json)
             return;
-        return new Event(json);
+        return json as Event;
     }
 
     /**
